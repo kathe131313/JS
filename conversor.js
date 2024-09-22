@@ -1,5 +1,6 @@
 document.getElementById('conversorForm').addEventListener('submit', function(event) {
     event.preventDefault();
+    // obtengo la forma de usar los valores del formulario y habilito el evento
   
     const tipoConversion = document.getElementById('tipoConversion').value;
     const moneda = document.getElementById('moneda').value.toUpperCase();
